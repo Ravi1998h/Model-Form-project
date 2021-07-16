@@ -3,4 +3,4 @@ from django import forms
 class EmployeeForm(forms.ModelForm):
     class Meta:
         model=Employee
-        fields='__all__'
+        field='__all__'
